@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@layer components {
+    .footers{
+        @apply bg-[#04102a] text-[#8a99b4] ;
+    }
+
+    .footer-content{
+        @apply  max-w-7xl px-20 xl:px-8 pb-8 pt-48 xl:pt-32 mx-auto;
+    }
+
+    .footer-about{
+        @apply space-y-12 md:space-y-10 xl:space-y-8;
+    }
+
+    .footer-about p{
+        @apply text-5xl leading-snug font-normal md:text-2xl md:leading-tight xl:text-base xl:leading-7;
+    }
+
+    .footer-about h3{
+         @apply text-7xl font-medium text-white md:text-4xl xl:text-2xl xl:leading-7
+    }
+   .footer-about .brands{
+     @apply flex space-x-24 lg:space-x-12 xl:space-x-6
+   }
+    .footer-div{
+        @apply flex flex-col gap-y-48 md:gap-y-24 lg:grid lg:grid-cols-2 lg:gap-x-8 xl:grid xl:grid-cols-4 xl:gap-8
+    }
+
+    .footer-abouttwo{
+      @apply  space-y-12 md:space-y-8 xl:space-y-0 xl:grid xl:gap-8
+    }
+    .footer-abouttwo h3{
+      @apply  text-7xl font-medium text-white md:text-4xl xl:leading-7 xl:text-2xl
+    }
+    .footer-abouttwo ul{
+        @apply space-y-8 xl:space-y-4
+    }
+
+   .footer-aboutthree{
+    @apply space-y-8
+   }
+   
+   .footer-aboutthree h3{
+    @apply text-7xl font-medium text-white md:text-4xl xl:text-2xl xl:leading-7;
+   }
+
+   .footer-aboutthree ul{
+    @apply space-y-8 xl:mt-6 xl:space-y-4
+   }
+
+   .footer-aboutthree ul li a{
+    @apply text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7;
+   }
+
+    .footer-aboutfour{
+        @apply space-y-8
+    }
+   .footer-aboutfour h3{
+    @apply text-7xl leading-snug font-medium text-white md:text-4xl xl:leading-7 xl:text-2xl
+   }
+
+   .footer-aboutfour ul{
+    @apply space-y-8 xl:mt-6 xl:space-y-4;
+   }
+
+   .footer-aboutfour ul li span{
+       @apply text-5xl leading-snug md:text-2xl xl:text-base xl:leading-7
+   }
+
+   .footer-base{
+    @apply mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 xl:mt-24;
+   }
+
+   .footer-base p{
+    @apply text-xs leading-5 text-gray-500;
+   }
+}

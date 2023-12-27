@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components{
+
+    .header{
+        @apply absolute z-[90] w-full;
+
+    }
+}
