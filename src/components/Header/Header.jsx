@@ -83,7 +83,7 @@ function Header() {
                       </div>
                       <div class="relative group mt-2">
                         <a
-                          href="#"
+                          href="/"
                           class="dropdown-link rounded-md font-bold font-sans text-black flex flex-row hover:text-primary"
                         >
                           <span className="text-black hover:text-blue-500">Product</span>

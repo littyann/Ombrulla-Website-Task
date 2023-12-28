@@ -1,0 +1,41 @@
+@tailwind components;
+
+@layer components {
+    .blogs{
+        @apply  my-32 md:my-8;
+    }
+
+    .blogs-div{
+        @apply mb-16 pb-20 lg:px-8 lg:pb-0;
+    }
+
+    .blogs-content{
+      @apply relative mx-auto max-w-5xl divide-y-2 divide-gray-200 lg:max-w-7xl;
+    }
+
+    .blog-head{
+        @apply flex justify-center items-baseline mb-8 md:mb-1;
+    }
+
+    .blog-data{
+      @apply  mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12;
+    }
+
+    .blog-data-div{
+        @apply bg-white p-5 rounded-lg grid grid-rows-1 md:grid-rows-2;
+    }
+    .blog-data-content{
+        @apply inline-block row-span-1;
+    }
+    .blog-data-content span{
+        @apply inline-flex items-center px-3 py-0.5 rounded-lg text-sm font-medium;
+    }
+
+    .blog-data-span-div{
+        @apply overflow-hidden rounded-lg;
+    }
+
+    .blog-data-div a{
+        @apply py-8 md:py-4 block row-span-1
+    }
+}

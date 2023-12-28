@@ -32,10 +32,10 @@ function Footer() {
         <div className='footer-abouttwo'>
         <h3>Our Services</h3>
         <ul>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">AI Infrastructure Inspection</a> </li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">AI Visual Inspection</a></li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">AI Data Analytics</a></li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">AI People Tracking</a></li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">AI Infrastructure Inspection</a> </li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">AI Visual Inspection</a></li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">AI Data Analytics</a></li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">AI People Tracking</a></li>
         </ul>
        
         </div>
@@ -44,10 +44,10 @@ function Footer() {
         <div className='footer-aboutthree'>
                <h3>Our Solutions</h3>
                <ul>
-               <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">Asset Performance Management</a> </li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">Job Grading &amp; Evaluation</a></li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">Compensation Management</a></li>
-        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="">AI People Tracking</a></li>
+               <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">Asset Performance Management</a> </li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">Job Grading &amp; Evaluation</a></li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="//">Compensation Management</a></li>
+        <li><a className='text-5xl leading-snug md:text-2xl md:leading-tight xl:text-base xl:leading-7' href="/">AI People Tracking</a></li>
                </ul>
         </div>
        <div className='footer-aboutfour'>
